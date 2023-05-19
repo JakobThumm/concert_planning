@@ -69,7 +69,7 @@ Now we can use the `concert_moveit_config package` that we have just created. _N
 - `source ~/ws_moveit/devel/setup.bash`
 - `cd ws_moveit/src/`
 - `catkin build`
-- (`sudo apt-get update` and `sudo apt-get dist-upgrade`) - to prevent rviz packages from failing
+- (`sudo apt-get update` and `sudo apt-get dist-upgrade`) to prevent rviz packages from failing
 - `roslaunch concert_moveit_config demo.launch rviz_tutorial:=true`
 
 A new Rviz window will open. There you can plan and execute actions you've created in the Setup Assistant.
