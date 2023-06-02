@@ -6,7 +6,7 @@ This tutorial is aimed at helping to get the concert robot and IK control ready 
 
 - Clone the concert_description repository (use recursive clone):
 ```
-git clone -r https://github.com/ADVRHumanoids/concert_description
+git clone --recursive https://github.com/ADVRHumanoids/concert_description
 ```
 - Open the `concert_description/docker/run-docker.bash` file in a file editor and remove the `--rm` flag. This ensures that the container will not be discarded on exit.
 - Run this bash file. A new terminal will pop up (in a newly created docker container). All the following commands must be executed in this terminal. 
@@ -67,11 +67,11 @@ To setup the catkin workspace, follow the steps from this "getting started" tuto
 ### Using the package
 Now we can use the `concert_moveit_config package` that we have just created. _Note_: we're still inside of the container.
 
-- `source ~/concert_ws/setup.bash`
-- `cd ws_moveit/src/`
+- `cd ~/ws_moveit/src/`
 - `catkin build`
-- `source ~/ws_moveit/devel/setup.bash`
 - (`sudo apt-get update` and `sudo apt-get dist-upgrade`) to prevent rviz packages from failing
+- `source ~/concert_ws/setup.bash`
+- `source ~/ws_moveit/devel/setup.bash`
 - `roslaunch concert_moveit_config demo.launch rviz_tutorial:=true`
 
 A new Rviz window will open. There you can plan and execute "actions" you've created in the Setup Assistant.
