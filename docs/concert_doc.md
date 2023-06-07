@@ -73,9 +73,10 @@ Now we can use the `concert_moveit_config package` that we have just created. _N
 
 - `cd ~/ws_moveit/src/`
 - `catkin build`
-- (`sudo apt-get update && sudo apt-get dist-upgrade`) to prevent rviz packages from failing
-- `source ~/concert_ws/setup.bash`
-- `source ~/ws_moveit/devel/setup.bash`
+- (_OPTIONAL_) `sudo apt-get update && sudo apt-get dist-upgrade` to prevent rviz packages from failing
+- `source ~/concert_ws/setup.bash && source ~/ws_moveit/devel/setup.bash`
 - `roslaunch concert_moveit_config demo.launch rviz_tutorial:=true`
+
+_Note_: if the last command shows no errors, but gets stuck with the frozen rviz window saying "initializing", try restarting the **roscore** and rerun the last 5 bullet points.
 
 A new Rviz window will open. There you can plan and execute "actions" you've created in the Setup Assistant.
