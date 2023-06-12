@@ -1,0 +1,25 @@
+controller_list:
+  - name: arm_controller_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - J1_E
+      - J2_E
+      - J3_E
+      - J4_E
+      - J5_E
+      - J6_E
+  - name: base_controller_controller
+    action_ns: follow_joint_trajectory
+    type: FollowJointTrajectory
+    default: True
+    joints:
+      - J1_A
+      - J_wheel_A
+      - J1_B
+      - J_wheel_B
+      - J1_C
+      - J_wheel_C
+      - J1_D
+      - J_wheel_D
