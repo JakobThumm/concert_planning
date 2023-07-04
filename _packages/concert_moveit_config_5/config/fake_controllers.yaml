@@ -1,0 +1,21 @@
+controller_list:
+  - name: fake_concert_controller_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - J1_A
+      - J_wheel_A
+      - J1_B
+      - J_wheel_B
+      - J1_C
+      - J_wheel_C
+      - J1_D
+      - J_wheel_D
+      - J1_E
+      - J2_E
+      - J3_E
+      - J4_E
+      - J5_E
+      - J6_E
+initial:  # Define initial robot poses per group
+  - group: concert_controller
+    pose: home
