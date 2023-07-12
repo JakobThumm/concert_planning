@@ -79,7 +79,8 @@ Here is how I did it:
         J1_E, J2_E, J3_E, J4_E, J5_E, J6_E,
         L1_E, L2_E, L3_E, L4_E, L5_E, L6_E,
     wheel joints:
-        J1_A_stator, J1_B_stator, J1_C_stator, J1_D_stator (rotate the joints to which the wheels are attached)
+        J1_A_stator, J1_B_stator, J1_C_stator, J1_D_stator 
+        (rotate the joints to which the wheels are attached)
         L1_A, L1_B, L1_C, L1_D
         (rotate the wheels)
     ```
