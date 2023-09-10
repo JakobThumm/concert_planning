@@ -1,0 +1,40 @@
+concert_controller_controller:
+  type: effort_controllers/JointTrajectoryController
+  joints:
+    - J1_E
+    - J2_E
+    - J3_E
+    - J4_E
+    - J5_E
+    - J6_E
+  gains:
+    J1_E:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    J2_E:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    J3_E:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    J4_E:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    J5_E:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1
+    J6_E:
+      p: 100
+      d: 1
+      i: 1
+      i_clamp: 1

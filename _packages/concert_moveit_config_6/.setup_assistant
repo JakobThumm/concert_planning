@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: ""
+    relative_path: /home/user/other/concert_planning/_urdfs/concert_with_sensors.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/ModularBot.srdf
+  CONFIG:
+    author_name: AiratValiullin
+    author_email: airat.valiullin@tum.de
+    generated_timestamp: 1694342875
